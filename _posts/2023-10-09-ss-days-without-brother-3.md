@@ -155,7 +155,6 @@ My outburst, a rare sight in the Shinra household, echoed throughout the house, 
 
 [Previous](/2023/10/08/ss-days-without-brother-2/)
 
-[ToC](/ordinary-i-extraordinary-them/)
 
 [Next](/2023/10/10/ch265/)
 
@@ -164,4 +163,3 @@ My outburst, a rare sight in the Shinra household, echoed throughout the house, 
 
 **Mirilu** *(on 2023-10-10 00:02:32)*:
 > Author made us root for Akane and Kaede within three chapters, far better than Rei and Shizuku, lol.
-

@@ -445,6 +445,5 @@ I'm tired of it...
 
 [Previous](/2022/06/28/ss-hiiragis-peace-of-mind/)
 
-[ToC](/ordinary-i-extraordinary-them/)
 
 [Next](/2022/06/30/ss-shizukus-concerns/)

@@ -143,7 +143,6 @@ I'm not a substitute for Kirasaka, who went ahead, but I bowed to the employees 
 
 [Previous](/2021/09/11/ss1p1/)
 
-[ToC](/ordinary-i-extraordinary-them/)
 
 [Next](/2021/09/27/after-school-hot-springs-part-3/)
 
@@ -164,4 +163,3 @@ I'm not a substitute for Kirasaka, who went ahead, but I bowed to the employees 
 
 **Daredevil** *(on 2021-09-18 17:40:19)*:
 > This is one of my favourite novels. I thought I would never see it again. Thanks for picking this up dude.
-

@@ -34,7 +34,6 @@ P.S. : Ah duck, I just realized, I've been leaving too much gaps between the lin
 
 [Previous](/2022/04/26/ch164/)
 
-[ToC](/ordinary-i-extraordinary-them/)
 
 [Next](/2022/06/01/ch165/)
 
@@ -46,4 +45,3 @@ P.S. : Ah duck, I just realized, I've been leaving too much gaps between the lin
 
 **BrutalBotX** *(on 2022-04-28 19:36:21)*:
 > Thank you for your support!! 😆
-

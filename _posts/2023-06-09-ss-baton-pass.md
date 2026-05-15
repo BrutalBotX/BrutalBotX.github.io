@@ -449,6 +449,5 @@ I was thinking about this as I burnt the image of the woman who handed over the 
 
 [Previous](/2023/06/08/ss-two-friends/)
 
-[ToC](/ordinary-i-extraordinary-them/)
 
 [Next](/2023/06/15/ch241/)

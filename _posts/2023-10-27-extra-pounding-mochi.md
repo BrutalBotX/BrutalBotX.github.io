@@ -191,7 +191,6 @@ Koizumi’s compassionate words made it clear that there was no escape for me. A
 
 [Previous](/2023/10/26/ch279/)
 
-[ToC](/ordinary-i-extraordinary-them/)
 
 [Next](/2023/10/28/extra-hidden-meaning/)
 
@@ -200,4 +199,3 @@ Koizumi’s compassionate words made it clear that there was no escape for me. A
 
 **Mirilu** *(on 2023-10-28 00:32:36)*:
 > I actually also read the manga and liked it more. Reading the manga and then watching the anime felt a bit weird, the anime made the characters look kinda more childish. That's the one Iyo has been translating, respect that guy but don't really want to get into it atm. Probably still a good read for those who didn't watch the anime/read the manga.
-

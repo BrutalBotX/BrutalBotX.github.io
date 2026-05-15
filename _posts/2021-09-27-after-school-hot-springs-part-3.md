@@ -255,6 +255,5 @@ Tl - Fuu... this should be the last one for this month, I'll post the next chapt
 
 [Previous](/2021/09/16/after-school-hot-springs-part-2/)
 
-[ToC](/ordinary-i-extraordinary-them/)
 
 [Next](/2021/10/06/ch116/)

@@ -135,6 +135,5 @@ Thus, my the first of three days without brother began.
 
 [Previous](/2023/10/06/ch264/)
 
-[ToC](/ordinary-i-extraordinary-them/)
 
 [Next](/2023/10/08/ss-days-without-brother-2/)

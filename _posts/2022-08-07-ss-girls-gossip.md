@@ -342,7 +342,6 @@ Shiraishi, who was watching the scene with a rattled body, was painfully reminde
 
 [Previous](/2022/08/06/ss-sibling-time/)
 
-[ToC](/ordinary-i-extraordinary-them/)
 
 [Next](/2022/08/14/ch201/)
 
@@ -352,4 +351,3 @@ Shiraishi, who was watching the scene with a rattled body, was painfully reminde
 **crisiscore38** *(on 2022-08-08 11:32:09)*:
 > So there's a bit more to it than just: "He doesn't favor me so I feel relaxed around him." It gives a bit more flesh to their love.
 > Thanks.
-

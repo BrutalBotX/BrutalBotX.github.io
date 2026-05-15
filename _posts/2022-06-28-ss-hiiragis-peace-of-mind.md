@@ -332,6 +332,5 @@ Next up is Kirasaka Rei.
 
 [Previous](/2022/06/09/ch170/)
 
-[ToC](/ordinary-i-extraordinary-them/)
 
 [Next](/2022/06/30/ss-assisting-rei/)

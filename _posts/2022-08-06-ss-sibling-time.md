@@ -487,7 +487,6 @@ That day was the first peaceful day in a long time in my hectic daily life.
 
 [Previous](/2022/08/01/ch200/)
 
-[ToC](/ordinary-i-extraordinary-them/)
 
 [Next](/2022/08/07/ss-girls-gossip/)
 
@@ -497,4 +496,3 @@ That day was the first peaceful day in a long time in my hectic daily life.
 **crisiscore38** *(on 2022-08-07 12:33:24)*:
 > I pity Yuuto a bit... at least, acknowledge his existence, girls! ^^'
 > Thanks for the chapter.
-

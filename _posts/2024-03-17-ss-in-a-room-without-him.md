@@ -193,7 +193,6 @@ I have to strive not to lose to Kirasaka Rei and Hiiragi Akane.
 
 [Previous](/2024/03/13/ch322/)
 
-[ToC](/ordinary-i-extraordinary-them/)
 
 [Next](/2024/03/18/ch323/)
 
@@ -214,4 +213,3 @@ I have to strive not to lose to Kirasaka Rei and Hiiragi Akane.
 > 
 > Or if those who really like this one, if they comment on his novel page maybe he'll continue, dunno...
 > I'll just stick with this in my mind for now ig ,
-

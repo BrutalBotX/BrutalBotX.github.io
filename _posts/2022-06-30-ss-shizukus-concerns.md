@@ -341,6 +341,5 @@ I couldn't say anything about what she was trying to say, as she refused to list
 
 [Previous](/2022/06/30/ss-assisting-rei/)
 
-[ToC](/ordinary-i-extraordinary-them/)
 
 [Next](/2022/07/01/ch171/)
