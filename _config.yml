@@ -1,0 +1,4 @@
+title: "Your Translation Group Name"
+description: "Fan Translations"
+theme: jekyll-theme-cayman  # A clean, built-in reading theme
+permalink: /:year/:month/:day/:title/  # THIS KEEPS YOUR OLD LINKS ALIVE
