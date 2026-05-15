@@ -32,10 +32,8 @@ My exams are starting next week and after that I'll be moving to dorms, it'll ta
 
 P.S. : Ah duck, I just realized, I've been leaving too much gaps between the lines ( it's definitely not like that while editing, I swear ). Anyways, I'll try to fix when I come back.
 
-[Previous](/2022/04/26/ch164/)
 
 
-[Next](/2022/06/01/ch165/)
 
 ---
 ### Archived Comments

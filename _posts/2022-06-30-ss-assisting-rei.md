@@ -443,7 +443,5 @@ I'm tired of it...
 
 ---
 
-[Previous](/2022/06/28/ss-hiiragis-peace-of-mind/)
 
 
-[Next](/2022/06/30/ss-shizukus-concerns/)

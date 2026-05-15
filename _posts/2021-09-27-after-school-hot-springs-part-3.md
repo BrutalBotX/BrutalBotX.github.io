@@ -253,7 +253,5 @@ I'll try my best to update the story so that you can enjoy the development from 
 
 Tl - Fuu... this should be the last one for this month, I'll post the next chapter after my exam around the the starting of the next month.
 
-[Previous](/2021/09/16/after-school-hot-springs-part-2/)
 
 
-[Next](/2021/10/06/ch116/)

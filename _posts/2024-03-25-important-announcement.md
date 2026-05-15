@@ -25,6 +25,5 @@ If you seriously liked this novel like me, give the author a dm or just a tweet,
 
 ---
 
-[Previous](/2024/03/25/ch327/)
 
 [Announcement](/announcements/)

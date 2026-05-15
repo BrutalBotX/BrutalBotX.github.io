@@ -145,7 +145,5 @@ As I turn my back and begin to walk, I light a small beacon of hope in my heart.
 
 ---
 
-[Previous](/2023/11/05/ch286/)
 
 
-[Next](/2023/11/07/extra-happy-halloween-2020/)

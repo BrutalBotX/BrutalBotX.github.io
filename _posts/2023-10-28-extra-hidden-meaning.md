@@ -181,7 +181,5 @@ Truly, our student council president is an amazing person.
 
 ---
 
-[Previous](/2023/10/27/extra-pounding-mochi/)
 
 
-[Next](/2023/10/29/ch281/)

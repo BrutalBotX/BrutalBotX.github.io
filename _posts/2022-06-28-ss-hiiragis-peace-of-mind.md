@@ -330,7 +330,5 @@ Next up is Kirasaka Rei.
 
 <TL>: I'm back at home, there'll be daily updates for the next 20 days or so. 😉
 
-[Previous](/2022/06/09/ch170/)
 
 
-[Next](/2022/06/30/ss-assisting-rei/)

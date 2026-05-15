@@ -11,8 +11,6 @@ In order to keep the work consistent and the flow smooth, I'll re-read the novel
 
 The new chapter will be posted when I'm done with that ...and some other works.
 
-[Previous](/2021/10/06/ch116/)
 
 [Announcements](/announcements/)
 
-[Next](/2021/11/26/ch117/)

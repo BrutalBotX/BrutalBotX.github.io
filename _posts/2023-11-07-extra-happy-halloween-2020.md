@@ -233,7 +233,5 @@ Afterward, my red, embarrassed face was captured by multiple cameras, with these
 
 ---
 
-[Previous](/2023/11/06/extra-banquet-of-memories/)
 
 
-[Next](/2023/12/06/ch287/)

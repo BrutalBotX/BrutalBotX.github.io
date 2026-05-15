@@ -340,10 +340,8 @@ Shiraishi, who was watching the scene with a rattled body, was painfully reminde
 
 ---
 
-[Previous](/2022/08/06/ss-sibling-time/)
 
 
-[Next](/2022/08/14/ch201/)
 
 ---
 ### Archived Comments

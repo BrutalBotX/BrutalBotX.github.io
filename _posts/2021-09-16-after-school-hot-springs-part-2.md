@@ -141,10 +141,8 @@ Kirasaka, who made the wrong choice, seems to have been frustrated by having bee
 
 I'm not a substitute for Kirasaka, who went ahead, but I bowed to the employees many times and then followed.
 
-[Previous](/2021/09/11/ss1p1/)
 
 
-[Next](/2021/09/27/after-school-hot-springs-part-3/)
 
 ---
 ### Archived Comments

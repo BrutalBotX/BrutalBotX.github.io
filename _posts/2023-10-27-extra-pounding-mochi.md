@@ -189,10 +189,8 @@ Koizumi’s compassionate words made it clear that there was no escape for me. A
 
 ---
 
-[Previous](/2023/10/26/ch279/)
 
 
-[Next](/2023/10/28/extra-hidden-meaning/)
 
 ---
 ### Archived Comments

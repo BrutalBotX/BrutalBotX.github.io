@@ -4,31 +4,45 @@ import re
 # --- CONFIGURATION ---
 POSTS_DIR = '_posts'
 
-# This regex finds the Discord link and the Previous/ToC/Next stack
-# It looks for the common patterns found in your export
-NAV_PATTERN = r'\[\*\*Discord here\*\*\].*?(\n\s*)*\[Previous\].*?(\n\s*)*\[ToC\].*?(\n\s*)*\[Next\].*?(\n|$)'
+# This pattern targets lines that are JUST the links [Previous], [ToC], [Next], or [**Discord...**]
+# It also handles variations in spacing or trailing slashes
+PATTERNS = [
+    r'^\[Previous\].*?$',
+    r'^\[Next\].*?$',
+    r'^\[ToC\].*?$',
+    r'^\[\*\*Discord here\*\*\].*?$',
+    r'^\[Chapter - \d+-\d+.*?$' # Optional: catch those old translation links if they are separate
+]
 
 def cleanup_file(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
-        content = f.read()
+        lines = f.readlines()
 
-    # 1. Remove the specific Discord/Prev/ToC/Next block
-    new_content = re.sub(NAV_PATTERN, '', content, flags=re.DOTALL)
-    
-    # 2. Also catch individual loose ToC links that might be left over
-    new_content = re.sub(r'\[ToC\].*?(\n|$)', '', new_content)
+    new_lines = []
+    changed = False
 
-    if content != new_content:
+    for line in lines:
+        match_found = False
+        for p in PATTERNS:
+            if re.match(p, line.strip()):
+                match_found = True
+                changed = True
+                break
+        
+        if not match_found:
+            new_lines.append(line)
+
+    if changed:
         with open(filepath, 'w', encoding='utf-8') as f:
-            f.write(new_content.strip() + "\n")
+            f.writelines(new_lines)
         return True
     return False
 
-print("Purging hardcoded navigation links...")
+print("Running aggressive purge of hardcoded navigation...")
 count = 0
 for filename in os.listdir(POSTS_DIR):
     if filename.endswith(".md"):
         if cleanup_file(os.path.join(POSTS_DIR, filename)):
             count += 1
 
-print(f"Done! Cleaned up {count} chapters.")
+print(f"Done! Cleaned up navigation links in {count} chapters.")

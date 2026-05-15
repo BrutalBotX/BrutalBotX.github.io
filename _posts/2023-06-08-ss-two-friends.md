@@ -331,7 +331,5 @@ I still don't these teenage drama scenes.
 
 ---
 
-[Previous](/2023/06/07/ss-the-yard-the-dog/)
 
 
-[Next](/2023/06/09/ss-baton-pass/)

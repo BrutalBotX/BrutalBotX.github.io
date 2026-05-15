@@ -191,10 +191,8 @@ I have to strive not to lose to Kirasaka Rei and Hiiragi Akane.
 
 ---
 
-[Previous](/2024/03/13/ch322/)
 
 
-[Next](/2024/03/18/ch323/)
 
 ---
 ### Archived Comments

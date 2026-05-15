@@ -153,10 +153,8 @@ My outburst, a rare sight in the Shinra household, echoed throughout the house, 
 
 ---
 
-[Previous](/2023/10/08/ss-days-without-brother-2/)
 
 
-[Next](/2023/10/10/ch265/)
 
 ---
 ### Archived Comments

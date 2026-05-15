@@ -256,7 +256,5 @@ However, I will never forget the way he ran up to my sister when we parted on th
 
 ---
 
-[Previous](/2023/06/06/ch240/)
 
 
-[Next](/2023/06/08/ss-two-friends/)

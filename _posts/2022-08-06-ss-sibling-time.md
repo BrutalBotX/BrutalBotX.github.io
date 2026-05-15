@@ -485,10 +485,8 @@ That day was the first peaceful day in a long time in my hectic daily life.
 
 ---
 
-[Previous](/2022/08/01/ch200/)
 
 
-[Next](/2022/08/07/ss-girls-gossip/)
 
 ---
 ### Archived Comments

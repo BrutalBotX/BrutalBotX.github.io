@@ -141,11 +141,9 @@ I held the completed salad in both hands and sat across from her. From then unti
 
 ---
 
-[Previous](/2023/10/07/ss-days-without-brother-1/)
 
 ToC
 
-[Next](/2023/10/09/ss-days-without-brother-3/)
 
 ---
 ### Archived Comments
