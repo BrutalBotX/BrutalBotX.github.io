@@ -21,21 +21,23 @@ layout: default
 
   <hr>
 
-  <div class="chapter-nav" style="display: flex; justify-content: space-between; margin-top: 20px; font-weight: bold;">
-    {% if page.previous %}
-      <a href="{{ page.previous.url | relative_url }}">← Previous</a>
-    {% else %}
-      <span></span>
-    {% endif %}
+<div class="chapter-navigation" style="display: flex; justify-content: space-between; align-items: center; margin: 40px 0; padding: 20px 0; border-top: 1px solid #eee; border-bottom: 1px solid #eee;">
+  
+  {% if page.previous %}
+    <a href="{{ page.previous.url | relative_url }}" style="text-decoration: none;">← Previous</a>
+  {% else %}
+    <span style="color: #ccc;">← Previous</span>
+  {% endif %}
 
-    <a href="{{ '/' | relative_url }}">Table of Contents</a>
+  <a href="{{ '/' | relative_url }}" style="font-weight: bold; text-decoration: none;">Table of Contents</a>
 
-    {% if page.next %}
-      <a href="{{ page.next.url | relative_url }}">Next →</a>
-    {% else %}
-      <span></span>
-    {% endif %}
-  </div>
+  {% if page.next %}
+    <a href="{{ page.next.url | relative_url }}" style="text-decoration: none;">Next →</a>
+  {% else %}
+    <span style="color: #ccc;">Next →</span>
+  {% endif %}
+  
+</div>
 
   <br><hr><br>
 
