@@ -4,119 +4,64 @@ layout: default
 <article class="post">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
   </header>
 
-  <div id="reader-controls" style="background: #f4f4f4; padding: 10px; border-radius: 8px; margin-bottom: 20px; display: flex; gap: 10px; align-items: center; justify-content: center; flex-wrap: wrap;">
-    <span style="font-weight: bold; margin-right: 10px;">Settings:</span>
-    <button onclick="changeFontSize(-1)" style="padding: 5px 10px; cursor: pointer;">A-</button>
-    <button onclick="changeFontSize(1)" style="padding: 5px 10px; cursor: pointer;">A+</button>
-    <button onclick="toggleFontFamily()" style="padding: 5px 10px; cursor: pointer;">Font Style</button>
-    <button onclick="toggleTheme()" style="padding: 5px 10px; cursor: pointer;">🌙 Dark Mode</button>
+  <div id="reader-controls" style="background: #f8f9fa; padding: 15px; border-radius: 8px; margin-bottom: 25px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; border: 1px solid #ddd;">
+    <button onclick="changeFontSize(-1)">A-</button>
+    <button onclick="changeFontSize(1)">A+</button>
+    <button onclick="toggleFontFamily()">Switch Font</button>
+    <button onclick="toggleTheme()" id="theme-btn">🌙 Dark Mode</button>
   </div>
 
-  <div class="post-content" id="chapter-text" style="transition: all 0.3s ease;">
+  <div class="post-content" id="chapter-text" style="font-size: 18px; line-height: 1.8;">
     {{ content }}
   </div>
 
-  <hr>
+  <div class="chapter-navigation" style="display: flex !important; justify-content: space-between; align-items: center; margin: 50px 0; padding: 25px 0; border-top: 2px solid #eee; border-bottom: 2px solid #eee;">
+    
+    {% if page.previous %}
+      <a href="{{ page.previous.url | relative_url }}" style="text-decoration: none; color: #007bff;">← Previous Chapter</a>
+    {% else %}
+      <span style="color: #bbb;">← Start of Novel</span>
+    {% endif %}
 
-<div class="chapter-navigation" style="display: flex; justify-content: space-between; align-items: center; margin: 40px 0; padding: 20px 0; border-top: 1px solid #eee; border-bottom: 1px solid #eee;">
-  
-  {% if page.previous %}
-    <a href="{{ page.previous.url | relative_url }}" style="text-decoration: none;">← Previous</a>
-  {% else %}
-    <span style="color: #ccc;">← Previous</span>
-  {% endif %}
+    <a href="{{ '/' | relative_url }}" style="font-weight: bold; text-decoration: none; color: #333; font-size: 1.1em;">Table of Contents</a>
 
-  <a href="{{ '/' | relative_url }}" style="font-weight: bold; text-decoration: none;">Table of Contents</a>
+    {% if page.next %}
+      <a href="{{ page.next.url | relative_url }}" style="text-decoration: none; color: #007bff;">Next Chapter →</a>
+    {% else %}
+      <span style="color: #bbb;">Latest Chapter →</span>
+    {% endif %}
+  </div>
 
-  {% if page.next %}
-    <a href="{{ page.next.url | relative_url }}" style="text-decoration: none;">Next →</a>
-  {% else %}
-    <span style="color: #ccc;">Next →</span>
-  {% endif %}
-  
-</div>
-
-  <br><hr><br>
-
-  <div class="comments-section">
-    <h3>Comments</h3>
+  <div class="giscus-container" style="margin-top: 30px;">
     </div>
+
 </article>
 
 <script>
-  // Elements
-  const chapterText = document.getElementById('chapter-text');
-  const body = document.body;
+  // Simplified logic for theme/font persistence
+  const text = document.getElementById('chapter-text');
+  let size = localStorage.getItem('fontSize') || 18;
+  let dark = localStorage.getItem('theme') === 'dark';
+
+  function apply() {
+    text.style.fontSize = size + 'px';
+    document.body.classList.toggle('dark-mode', dark);
+    document.getElementById('theme-btn').innerText = dark ? '☀️ Light Mode' : '🌙 Dark Mode';
+    // Dark mode CSS injection
+    if (dark) {
+      document.body.style.backgroundColor = '#121212';
+      document.body.style.color = '#e0e0e0';
+    } else {
+      document.body.style.backgroundColor = '#fff';
+      document.body.style.color = '#333';
+    }
+  }
+
+  function changeFontSize(s) { size = Math.min(Math.max(parseInt(size) + (s*2), 12), 36); localStorage.setItem('fontSize', size); apply(); }
+  function toggleTheme() { dark = !dark; localStorage.setItem('theme', dark ? 'dark' : 'light'); apply(); }
+  function toggleFontFamily() { text.style.fontFamily = text.style.fontFamily.includes('serif') ? 'sans-serif' : 'serif'; }
   
-  // Load saved settings on page load
-  let currentSize = localStorage.getItem('readerFontSize') ? parseInt(localStorage.getItem('readerFontSize')) : 18;
-  let isDarkMode = localStorage.getItem('readerTheme') === 'dark';
-  let isSerif = localStorage.getItem('readerFont') === 'serif';
-
-  // Apply saved settings immediately
-  chapterText.style.fontSize = currentSize + 'px';
-  if (isDarkMode) applyDarkTheme();
-  if (isSerif) applySerifFont();
-
-  // Functions
-  function changeFontSize(step) {
-    currentSize += (step * 2);
-    // Keep it within reasonable limits (12px to 32px)
-    if (currentSize < 12) currentSize = 12;
-    if (currentSize > 32) currentSize = 32;
-    
-    chapterText.style.fontSize = currentSize + 'px';
-    localStorage.setItem('readerFontSize', currentSize);
-  }
-
-  function toggleTheme() {
-    isDarkMode = !isDarkMode;
-    if (isDarkMode) {
-      applyDarkTheme();
-      localStorage.setItem('readerTheme', 'dark');
-    } else {
-      applyLightTheme();
-      localStorage.setItem('readerTheme', 'light');
-    }
-  }
-
-  function toggleFontFamily() {
-    isSerif = !isSerif;
-    if (isSerif) {
-      applySerifFont();
-      localStorage.setItem('readerFont', 'serif');
-    } else {
-      applySansFont();
-      localStorage.setItem('readerFont', 'sans');
-    }
-  }
-
-  // CSS Injectors
-  function applyDarkTheme() {
-    body.style.backgroundColor = '#1a1a1a';
-    body.style.color = '#e0e0e0';
-    // Fix link colors for dark mode so they don't stay invisible blue
-    let links = document.querySelectorAll('a');
-    links.forEach(link => link.style.color = '#4da6ff');
-  }
-
-  function applyLightTheme() {
-    body.style.backgroundColor = '#ffffff';
-    body.style.color = '#333333';
-    let links = document.querySelectorAll('a');
-    links.forEach(link => link.style.color = ''); // reset to theme default
-  }
-
-  function applySerifFont() {
-    chapterText.style.fontFamily = 'Georgia, "Times New Roman", serif';
-    chapterText.style.lineHeight = '1.8';
-  }
-
-  function applySansFont() {
-    chapterText.style.fontFamily = 'Arial, Helvetica, sans-serif';
-    chapterText.style.lineHeight = '1.6';
-  }
+  apply();
 </script>
