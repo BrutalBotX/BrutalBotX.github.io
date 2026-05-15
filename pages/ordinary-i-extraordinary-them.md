@@ -2,7 +2,9 @@
 layout: page
 title: "Ordinary I &amp; Extraordinary Them"
 date: 2021-09-10 17:15:08
-permalink: /2021/09/10/ordinary-i-extraordinary-them/
+permalink: /
+redirect_from:
+  - /2021/09/10/ordinary-i-extraordinary-them/
 ---
 
 # Ordinary I & Extraordinary Them

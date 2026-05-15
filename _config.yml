@@ -1,3 +1,5 @@
 title: Brutalbottl
 remote_theme: jekyll/minima
 permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-redirect-from
