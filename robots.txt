@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://BrutalBotX.github.io/BrutalBotX.github.io/sitemap.xml
